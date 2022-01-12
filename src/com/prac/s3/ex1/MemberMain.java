@@ -15,7 +15,7 @@ public class MemberMain {
 		}else {
 			System.out.println("삭제 실패");
 		}
-
+System.out.println("안재이");
 		for (int i = 0; i < members.size(); i++) {
 
 			System.out.println(members.get(i).getId());
