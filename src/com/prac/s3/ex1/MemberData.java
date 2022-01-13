@@ -67,10 +67,20 @@ public class MemberData {
 			memberDTO.setName(st.nextToken().trim());
 			memberDTO.setEmail(st.nextToken().trim());
 			memberDTO.setAge(Integer.parseInt(st.nextToken().trim()));
-			ar.add(memberDTO);
+			
 			
 			//한사람만 입력받을때 예
 			//MemberDTO memberDTO= new MemberDTO();
+//			System.out.println("ID 입력");
+//			memberDTO.setId(sc.next());
+//			System.out.println("PW 입력");
+//			memberDTO.setPw(sc.next());
+//			System.out.println("Name 입력");
+//			memberDTO.setName(sc.next());
+//			System.out.println("Email 입력");
+//			memberDTO.setEmail(sc.next());
+//			System.out.println("Age 입력");
+//			memberDTO.setAge(sc.nextInt());
 		}
 
 		return ar;
